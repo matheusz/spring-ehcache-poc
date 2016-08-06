@@ -1,0 +1,18 @@
+group 'com.spring-ehcache.poc'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter:1.4.0.RELEASE'
+	compile 'org.springframework:spring-context-support:4.3.2.RELEASE'
+	compile 'net.sf.ehcache:ehcache-core:2.6.11'
+} 
