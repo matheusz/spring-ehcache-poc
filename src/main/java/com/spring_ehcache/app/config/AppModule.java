@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppModule {
 
     @Bean
-    public DataAccess getEmployee() {
+    public DataAccess dataAccess() {
         return new DataAccess();
     }
 
